@@ -1,6 +1,90 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 50px;
+
+h1 {
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+    border-bottom: 1px solid gray;
+    height: 600px;
+    padding-top: 5px;
+
+
+}
+
+.bg1 {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.bg2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bg3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 7%;
+
+}
+
+.half-width2 {
+    width: 40%;
+    padding-left: 7%;
+
+}
+
+.half-width img {
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+.box-shadowfotter {
+
+    margin: 20px;
+    box-shadow: 7px 9px 24px -4px rgba(101, 95, 95, 0.64);
+    -webkit-box-shadow: 7px 9px 24px -4px rgba(101, 95, 95, 0.64);
+    -moz-box-shadow: 7px 9px 24px -4px rgba(101, 95, 95, 0.64);
+
+}
+
+.border1 {
+    border-left: 6px solid tomato;
+}
+
+.border2 {
+    border-left: 6px solid blue;
+}
+
+.flexfooter {
+    display: flex;
+}
+
+.hiremeButton {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.textmodift {
+    text-align: center;
+    margin-top: 100px;
 }
